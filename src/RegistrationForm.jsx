@@ -24,9 +24,7 @@
           <Input
             name="name"
             label="Name"
-            required={({ get }) => {
-              return !!get(['primaryInfo', 'lastName', 'value'])
-            }} />
+            />
         </Field.Group>
 
         <Field.Group name="primaryInfo">
