@@ -22,7 +22,7 @@
         
         <Field.Group name="primaryInfo">
           <Input
-            name="name"
+            name="firstName"
             label="Name"
             />
         </Field.Group>
