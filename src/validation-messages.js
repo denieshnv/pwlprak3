@@ -6,7 +6,7 @@ export default {
 
   type: {
     text: {
-      missing: 'It is should not be empty',
+      missing: 'It is should not be empty..',
     },
     email: {
       missing: 'It is should not be empty..',

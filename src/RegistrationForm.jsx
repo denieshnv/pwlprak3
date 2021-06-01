@@ -22,7 +22,7 @@
         
         <Field.Group name="primaryInfo">
           <Input
-            name="Name"
+            name="name"
             label="Name"
             required={({ get }) => {
               return !!get(['primaryInfo', 'lastName', 'value'])

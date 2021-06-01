@@ -1,0 +1,73 @@
+{
+    "case1": {
+        "testcase_name": "Form nama tidak diisi",
+        "data": {
+            "name": "",
+            "email": "denieshnv@gmail.com",
+            "password": "@Deniesh1",
+            "re-password": "@Deniesh1"
+        },
+        "expected": {
+            "pesan": "All is well! You have been registered"
+        }
+    },
+
+    "case2": {
+        "testcase_name": "Form email tidak sesuai aturan",
+        "data": {
+            "name": "Deniesh Nathanael Virginiel",
+            "email": "denieshnv",
+            "password": "@Deniesh1",
+            "re-password": "@Deniesh1"
+        },
+        "expected": {
+            "pesan": "Seems like its not an email"
+        }
+    },
+    "case3" : {
+        "testcase_name": "Form password tidak sesuai aturan",
+        "data": {
+            "name": "Deniesh Nathanael Virginiel",
+            "email": "deneishnv@gmail.com",
+            "password": "Deniesh1",
+            "re-password": "@Deniesh1"
+        },
+        "expected": {
+            "pesan": "At least one capital letter is needed | At least one number is needed | At least one symbol is needed | Password should at least 8 characters length"
+        }
+    },
+    "case4" : {
+        "testcase_name": "form re-password tidak sama dengan form password",
+        "data": {
+            "name": "Deniesh Nathanael Virginiel",
+            "email": "deneishnv@gmail.com",
+            "password": "@Deniesh1",
+            "re-password": "Deniesh1"
+        },
+        "expected": {
+            "pesan": "The password is not the same"
+        }
+    },
+    "case5" : {
+        "testcase_name": "All is well",
+        "data": {
+            "name": "Deniesh Nathanael Virginiel",
+            "email": "denieshnv@gmail.com",
+            "password": "@Deniesh1",
+            "re-password": "@Deniesh1"
+        },
+        "expected": {
+            "pesan": "All is well! You have been registered"
+        }
+    },
+    "case6" : {
+        "testcase_name": "Semua form tidak diisi",
+        "data": {
+            "name": "",
+            "email": "",
+            "password": "",
+            "re-password": ""
+        },
+        "expected": "It is should not be empty.."
+    }
+}
