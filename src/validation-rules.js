@@ -7,7 +7,7 @@ export default {
       capitalLetter: ({ value }) => /[A-Z]/.test(value),
       oneNumber: ({ value }) => /[0-9]/.test(value),
       oneSymbol: ({ value }) => /[~!@#$%^&*]/.test(value),
-      minLength: ({ value }) => value.length > 5
+      minLength: ({ value }) => value.length > 7
     }
   },
 

@@ -1,23 +1,23 @@
 export default {
   general: {
-    missing: 'This field must be filled!',
-    invalid: 'Filling is not valid!'
+    missing: 'It is should not be empty..',
+    invalid: 'Something is wrong..'
   },
 
   type: {
     text: {
-      missing: 'Please enter the name!',
+      missing: 'It is should not be empty',
     },
     email: {
-      missing: 'Please enter the email!',
-      invalid: 'The email you enter is not valid!'
+      missing: 'It is should not be empty..',
+      invalid: 'Seems like its not an email'
     },
     password: {
       rule: {
-        capitalLetter: 'Please include at least one capital letter!',
-        oneNumber: 'Please include at least one number!',
-        oneSymbol: 'Please include at least one symbol!',
-        minLength: 'Password should consist of 6 character!'
+        capitalLetter: 'At least one capital letter is needed',
+        oneNumber: 'At least one number is needed',
+        oneSymbol: 'At least one symbol is needed',
+        minLength: 'Password should at least 8 characters length'
       }
     }
   },
@@ -25,7 +25,7 @@ export default {
   name: {
     confirmPassword: {
       rule: {
-        matches: 'The password you entered does not match!'
+        matches: 'The password is not the same'
       }
     }
   }
