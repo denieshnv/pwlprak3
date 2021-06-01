@@ -23,6 +23,7 @@
         <Field.Group name="primaryInfo">
           <Input
             name="firstName"
+            type="text"
             label="Name"
             />
         </Field.Group>
